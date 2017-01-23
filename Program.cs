@@ -10,67 +10,100 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
-            int[] input = new int[10];
-            for (int index = 1; index <= 10; index += 2)
+            int[] input = new int[100];
+            input[0] = 1;
+
+            for (int index = 1; index < input.Length; index++)
             {
 
-                input[index] = index;
-                index++;
+                input[index] = (index + 1);
+
             }
 
-            int[] output = RemoveAlternateElements(input);
-            Console.WriteLine("1st");
-            int[] finalanswer = new int[output.Length];
-            Console.WriteLine("2nd");
+            int finalanswer = RemoveAlternateElements(input);
 
-            while (finalanswer.Length < 1)
-            {
-                Console.WriteLine("2nd");
-                finalanswer = RemoveAlternateElements(output);
-            }
 
-            foreach (int v in finalanswer)
-            {
-                Console.WriteLine(v);
-            }
+
+
+
+
+
+
+
+
+
+
+            Console.WriteLine(finalanswer);
+
             Console.ReadLine();
         }
 
 
-        static int[] RemoveAlternateElements(int[] input)
+        static int RemoveAlternateElements(int[] input)
         {
-            int temp, oindex = 1;
+            int count = input.Length;
 
-            if (input.Length % 2 == 0)
+            if (count == 1)
             {
-                temp = (input.Length / 2);
+                return input[0];
+            }
+
+
+            int oindex = 0;
+
+
+            int[] output = new int[(count + 1) / 2];
+
+
+            for (int index = 0; index < input.Length; index=index+2)
+            {
+                output[oindex] = input[index];
+                oindex++;
+            }
+            if (count % 2 == 0)
+            {
+
+                return RemoveAlternateElements(output);
             }
             else
             {
-                temp = (input.Length / 2) + 1;
+                int[] output2 = new int[((count + 1) / 2)];
+                {
+                    for (int index = 1; index < output.Length; index++)
+                    {
+                        output2[index] = output[index - 1];
+                        output2[0] = output[index];
+
+                    }
+                    return RemoveAlternateElements(output2);
+
+
+
+                }
+
+
             }
-
-            int[] output = new int[temp];
-
-            for (int index = 0; index <= temp; index = index + 1)
-            {
-
-
-                output[oindex] = input[index];
-
-
-            }
-
-            return output;
-            //determine the size of o/p array//
-            //define an array=output array;
-            // iterate through input array and pick alternate elements
-            //return output//
 
         }
-
     }
 
+
 }
+
+            
+
+         
+
+
+        
+
+
+
+    
+    
+
+
+
+
 
 
