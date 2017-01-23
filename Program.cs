@@ -23,16 +23,6 @@ namespace ConsoleApplication2
             int finalanswer = RemoveAlternateElements(input);
 
 
-
-
-
-
-
-
-
-
-
-
             Console.WriteLine(finalanswer);
 
             Console.ReadLine();
@@ -80,14 +70,10 @@ namespace ConsoleApplication2
 
 
                 }
-
-
             }
 
         }
     }
-
-
 }
 
             
