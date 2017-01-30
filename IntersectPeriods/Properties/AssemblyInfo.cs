@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("100 puzzle")]
+[assembly: AssemblyTitle("IntersectPeriods")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Neudesic")]
-[assembly: AssemblyProduct("100 puzzle")]
+[assembly: AssemblyProduct("IntersectPeriods")]
 [assembly: AssemblyCopyright("Copyright © Neudesic 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ee2b16ab-5fa0-46ab-9657-b67e56e0964a")]
+[assembly: Guid("2f6a078d-1a5f-4c60-a834-f1a8bf0cbb2c")]
 
 // Version information for an assembly consists of the following four values:
 //
