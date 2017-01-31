@@ -1,7 +1,0 @@
-C:\Users\Neeharika.Pathuri\Documents\HelloWorld\IntersectPeriods\IntersectPeriods\bin\Debug\IntersectPeriods.exe.config
-C:\Users\Neeharika.Pathuri\Documents\100Puzzle\IntersectPeriods\bin\Debug\IntersectPeriods.exe.config
-C:\Users\Neeharika.Pathuri\Documents\100Puzzle\IntersectPeriods\bin\Debug\IntersectPeriods.exe
-C:\Users\Neeharika.Pathuri\Documents\100Puzzle\IntersectPeriods\bin\Debug\IntersectPeriods.pdb
-C:\Users\Neeharika.Pathuri\Documents\100Puzzle\IntersectPeriods\obj\Debug\IntersectPeriods.csprojResolveAssemblyReference.cache
-C:\Users\Neeharika.Pathuri\Documents\100Puzzle\IntersectPeriods\obj\Debug\IntersectPeriods.exe
-C:\Users\Neeharika.Pathuri\Documents\100Puzzle\IntersectPeriods\obj\Debug\IntersectPeriods.pdb
