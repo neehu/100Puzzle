@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Puzzle100
+namespace CircleOf100
 {
-    class Program
+    class Excute
     {
         static void Main(string[] args)
         {
